@@ -1,0 +1,71 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js dev
+
+PATH: 
+  /Users/timmy/.pyenv/shims:/usr/local/sbin:/usr/local/sbin:/Users/timmy/.pyenv:/Users/timmy/flutter/bin:/Users/timmy/.cabal/bin:/Users/timmy/.ghcup/bin:/Users/timmy/.composer/vendor/bin:/usr/local/bin/composer:/usr/local/opt/python/libexec/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/timmy/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/timmy/Library/Android/sdk/emulator:/Users/timmy/Library/Android/sdk/tools:/Users/timmy/Library/Android/sdk/tools/bin:/Users/timmy/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/timmy/job/html/html-init/package.json: Unexpected token } in JSON at position 1037
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "html-init",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "webpack-dev-server --open",
+      "build:dev": "webpack --mode='development'",
+      "build:prod": "webpack --mode='production'",
+      "gulp": "gulp watch"
+    },
+    "author": "Timofei Tverdokhlebov",
+    "license": "ISC",
+    "devDependencies": {
+      "autoprefixer": "9.6.1",
+      "browser-sync": "2.26.7",
+      "clean-webpack-plugin": "3.0.0",
+      "css-loader": "3.0.0",
+      "cssnano": "4.1.10",
+      "file-loader": "4.0.0",
+      "gulp": "4.0.2",
+      "gulp-postcss": "8.0.0",
+      "gulp-sass": "4.0.2",
+      "gulp-sourcemaps": "2.6.5",
+      "html-loader": "0.5.5",
+      "html-webpack-plugin": "3.2.0",
+      "image-webpack-loader": "5.0.0",
+      "mini-css-extract-plugin": "0.7.0",
+      "postcss-loader": "3.0.0",
+      "style-loader": "0.23.1",
+      "url-loader": "2.1.0",
+      "webpack": "4.35.2",
+      "webpack-cli": "3.3.5",
+      "webpack-dev-server": "3.7.2"
+    },
+    "dependencies": {
+      "node-sass": "4.12.0",
+      "sass-loader": "7.1.0"
+    }
+  }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

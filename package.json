@@ -1,0 +1,23 @@
+{
+  "name": "html-init",
+  "version": "1.0.0",
+  "private": false,
+  "description": "html + sass starter",
+  "devDependencies": {
+    "autoprefixer": "9.5.x",
+    "browser-sync": "2.26.x",
+    "gulp": "4.0.x",
+    "gulp-plumber": "1.2.x",
+    "gulp-sourcemaps": "2.6.x",
+    "gulp-postcss": "8.0.x",
+    "gulp-sass": "4.0.x"
+  },
+  "scripts": {
+    "build": "gulp css",
+    "start": "gulp start"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead"
+  ]
+}
